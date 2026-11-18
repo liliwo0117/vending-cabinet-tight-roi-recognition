@@ -1,0 +1,42 @@
+{
+  "experiment": "final_paired_test_after_validation_selection",
+  "selection_split": "validation",
+  "locked_confidence_threshold": 0.01,
+  "locked_roi_expansion_ratio": 0.0,
+  "total_images": 680,
+  "covered_images": 680,
+  "missed_or_below_threshold": 0,
+  "detection_coverage": 1.0,
+  "single_stage_yolo11": {
+    "correct_images": 602,
+    "conditional_accuracy": 0.8852941176470588,
+    "complete_end_to_end_accuracy": 0.8852941176470588
+  },
+  "two_stage_yolo11_convnextv2": {
+    "correct_images": 632,
+    "conditional_accuracy": 0.9294117647058824,
+    "complete_end_to_end_accuracy": 0.9294117647058824
+  },
+  "improvement": {
+    "correct_images": 30,
+    "conditional_accuracy_points": 0.044117647058823595,
+    "complete_end_to_end_accuracy_points": 0.044117647058823595
+  },
+  "paired_outcomes": {
+    "both_correct": 586,
+    "both_wrong": 32,
+    "yolo_only_correct": 16,
+    "two_stage_only_correct": 46
+  },
+  "errors": {
+    "unknown_true_class": 0,
+    "image_read_failed": 0,
+    "detector_failed": 0,
+    "empty_roi": 0,
+    "save_failed": 0,
+    "classifier_failed": 0
+  },
+  "yolo_model_path": "runs\\detect\\train_8cls_我的GPU版-2\\weights\\best.pt",
+  "classifier_model_path": "results\\classifier_imagenet_official\\best_model_imagenet.pth",
+  "test_image_dir": "data\\test"
+}

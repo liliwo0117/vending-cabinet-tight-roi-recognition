@@ -1,0 +1,12 @@
+{
+  "selection_split": "validation",
+  "selection_metric": "complete_end_to_end_accuracy",
+  "confidence_threshold": 0.1,
+  "roi_expansion_ratio": 0.0,
+  "roi_expansion_percent": 0,
+  "covered_images": 623,
+  "correct_images": 575,
+  "detection_coverage": 0.9161764705882353,
+  "conditional_classification_accuracy": 0.9229534510433387,
+  "complete_end_to_end_accuracy": 0.8455882352941176
+}

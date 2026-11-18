@@ -1,0 +1,22 @@
+# Keep text files normalised
+* text=auto eol=lf
+
+*.py   text eol=lf
+*.md   text eol=lf
+*.csv  text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+
+# Images are binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# Model weights: Git LFS (needs `git lfs install` once).
+# The classifier checkpoint is ~13 MB, so LFS is optional for it; the YOLO11m
+# checkpoint is ~39-194 MB depending on whether optimizer state is kept, which
+# exceeds GitHub's 100 MB per-file limit. Prefer a GitHub Release + a download
+# line in weights/README.md if you do not want to use LFS.
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.pt  filter=lfs diff=lfs merge=lfs -text

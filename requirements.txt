@@ -1,0 +1,18 @@
+# Python 3.10 on Windows 11, CUDA 12.8 (paper environment).
+# Versions below are the ones used to produce the reported results; newer minor
+# releases of ultralytics/timm should also work but have not been re-validated.
+
+torch==2.11.0
+torchvision
+ultralytics>=8.3.0
+timm==1.0.28
+opencv-python
+numpy
+pandas
+pillow
+matplotlib
+seaborn
+scikit-learn
+thop
+tqdm
+imagehash

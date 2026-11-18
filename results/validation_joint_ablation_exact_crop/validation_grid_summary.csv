@@ -1,0 +1,5 @@
+﻿rank,confidence_threshold,roi_expansion_ratio,roi_expansion_percent,total_images,covered_images,missed_or_below_threshold,correct_images,detection_coverage,conditional_classification_accuracy,complete_end_to_end_accuracy,unknown_true_class,failed_after_detection
+1,0.1,0.0,0,680,623,57,575,0.9161764705882353,0.9229534510433387,0.8455882352941176,0,0
+2,0.2,0.0,0,680,623,57,575,0.9161764705882353,0.9229534510433387,0.8455882352941176,0,0
+3,0.25,0.0,0,680,623,57,575,0.9161764705882353,0.9229534510433387,0.8455882352941176,0,0
+4,0.3,0.0,0,680,613,67,566,0.9014705882352941,0.9233278955954323,0.8323529411764706,0,0

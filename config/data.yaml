@@ -1,0 +1,7 @@
+# YOLO dataset description (all paths are relative to the repository root)
+train: data/train_images
+val: data/val_images
+test: data/test
+
+nc: 8
+names: ['hks_large', 'hks_small', 'hn_can', 'jlb_can', 'kkkl_can', 'wlj_can', 'xb', 'xb_wt']

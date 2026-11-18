@@ -1,0 +1,26 @@
+{
+  "method": "single_stage_yolo11",
+  "model_path": "runs\\detect\\train_8cls_我的GPU版-2\\weights\\best.pt",
+  "test_dir": "data\\test",
+  "confidence_threshold": 0.5,
+  "image_size": 640,
+  "total_images": 680,
+  "covered_images": 664,
+  "missed_or_below_threshold": 16,
+  "correct_images": 596,
+  "detection_coverage": 0.9764705882352941,
+  "conditional_classification_accuracy": 0.8975903614457831,
+  "complete_end_to_end_accuracy": 0.8764705882352941,
+  "skipped_unknown_class": 0,
+  "failed_images": 0,
+  "class_names": [
+    "hks_large",
+    "hks_small",
+    "hn_can",
+    "jlb_can",
+    "kkkl_can",
+    "wlj_can",
+    "xb",
+    "xb_wt"
+  ]
+}

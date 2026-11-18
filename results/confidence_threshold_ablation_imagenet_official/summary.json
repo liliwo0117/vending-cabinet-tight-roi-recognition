@@ -1,0 +1,76 @@
+{
+  "experiment": "confidence_threshold_ablation",
+  "yolo_model_path": "runs\\detect\\train_8cls_我的GPU版-2\\weights\\best.pt",
+  "classifier_model_path": "results\\classifier_imagenet_official\\best_model_imagenet.pth",
+  "test_image_dir": "data\\test",
+  "test_image_total": 680,
+  "roi_expansion": 0.15,
+  "yolo_image_size": 640,
+  "thresholds": {
+    "0.30": {
+      "confidence_threshold": 0.3,
+      "total_images": 680,
+      "covered_images": 677,
+      "missed_or_below_threshold": 3,
+      "correct_images": 613,
+      "detection_coverage": 0.9955882352941177,
+      "conditional_classification_accuracy": 0.9054652880354506,
+      "complete_end_to_end_accuracy": 0.9014705882352941,
+      "unknown_true_class": 0,
+      "empty_roi": 0,
+      "failed": 0
+    },
+    "0.40": {
+      "confidence_threshold": 0.4,
+      "total_images": 680,
+      "covered_images": 675,
+      "missed_or_below_threshold": 5,
+      "correct_images": 611,
+      "detection_coverage": 0.9926470588235294,
+      "conditional_classification_accuracy": 0.9051851851851852,
+      "complete_end_to_end_accuracy": 0.8985294117647059,
+      "unknown_true_class": 0,
+      "empty_roi": 0,
+      "failed": 0
+    },
+    "0.50": {
+      "confidence_threshold": 0.5,
+      "total_images": 680,
+      "covered_images": 664,
+      "missed_or_below_threshold": 16,
+      "correct_images": 602,
+      "detection_coverage": 0.9764705882352941,
+      "conditional_classification_accuracy": 0.9066265060240963,
+      "complete_end_to_end_accuracy": 0.8852941176470588,
+      "unknown_true_class": 0,
+      "empty_roi": 0,
+      "failed": 0
+    },
+    "0.60": {
+      "confidence_threshold": 0.6,
+      "total_images": 680,
+      "covered_images": 640,
+      "missed_or_below_threshold": 40,
+      "correct_images": 587,
+      "detection_coverage": 0.9411764705882353,
+      "conditional_classification_accuracy": 0.9171875,
+      "complete_end_to_end_accuracy": 0.8632352941176471,
+      "unknown_true_class": 0,
+      "empty_roi": 0,
+      "failed": 0
+    },
+    "0.70": {
+      "confidence_threshold": 0.7,
+      "total_images": 680,
+      "covered_images": 572,
+      "missed_or_below_threshold": 108,
+      "correct_images": 534,
+      "detection_coverage": 0.8411764705882353,
+      "conditional_classification_accuracy": 0.9335664335664335,
+      "complete_end_to_end_accuracy": 0.7852941176470588,
+      "unknown_true_class": 0,
+      "empty_roi": 0,
+      "failed": 0
+    }
+  }
+}

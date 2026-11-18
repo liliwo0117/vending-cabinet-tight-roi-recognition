@@ -1,0 +1,37 @@
+# ---- data (never commit; request access instead) ----
+data/*
+!data/README.md
+cropped_gt_train_new/
+cropped_gt_val_pred/
+cropped_pred_final_我的GPU版/
+cropped_pred_final_旧重复结果/
+cropped_pred_adaptive_我的GPU版/
+cls_data_new/
+error_samples/
+yolo_vis/
+raw_data/
+
+# ---- weights ----
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# ---- generated results (raw per-image dumps; summaries are committed) ----
+results/**/saved_jpg_rois/
+results/**/saved_jpg_rois_*/
+results/**/*.png
+runs/**/weights/
+
+# ---- python / IDE / OS ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+Thumbs.db
+desktop.ini
+*.log

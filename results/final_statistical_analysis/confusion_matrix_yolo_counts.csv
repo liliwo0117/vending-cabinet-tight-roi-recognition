@@ -1,0 +1,9 @@
+﻿true_class,hks_large,hks_small,hn_can,jlb_can,kkkl_can,wlj_can,xb,xb_wt
+hks_large,40,38,3,4,0,0,0,0
+hks_small,3,82,0,0,0,0,0,0
+hn_can,0,1,84,0,0,0,0,0
+jlb_can,0,0,2,82,1,0,0,0
+kkkl_can,0,0,1,0,84,0,0,0
+wlj_can,0,0,0,0,3,82,0,0
+xb,0,0,0,0,0,0,80,5
+xb_wt,0,0,1,0,0,0,16,68

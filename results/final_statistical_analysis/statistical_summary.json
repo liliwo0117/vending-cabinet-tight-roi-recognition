@@ -1,0 +1,44 @@
+{
+  "experiment": "final_statistical_analysis",
+  "source_predictions": "results\\final_test_conf_0_01_tight_roi\\paired_predictions.csv",
+  "processed_samples": 680,
+  "single_stage_yolo11": {
+    "method": "single_stage_yolo11",
+    "total": 680,
+    "correct": 602,
+    "accuracy": 0.8852941176470588,
+    "accuracy_ci95_low": 0.8591478743965417,
+    "accuracy_ci95_high": 0.9071116046699284,
+    "macro_precision": 0.9004836801145701,
+    "macro_recall": 0.8852941176470589,
+    "macro_f1": 0.8790747343935303,
+    "weighted_f1": 0.8790747343935302
+  },
+  "two_stage_yolo11_convnextv2": {
+    "method": "two_stage_yolo11_convnextv2",
+    "total": 680,
+    "correct": 632,
+    "accuracy": 0.9294117647058824,
+    "accuracy_ci95_low": 0.9076512787581215,
+    "accuracy_ci95_high": 0.9463478353159598,
+    "macro_precision": 0.9319068135722826,
+    "macro_recall": 0.9294117647058823,
+    "macro_f1": 0.9292548606786615,
+    "weighted_f1": 0.9292548606786615
+  },
+  "improvement": {
+    "correct_images": 30,
+    "accuracy_points": 0.044117647058823595
+  },
+  "paired_outcomes": {
+    "both_correct": 586,
+    "both_wrong": 32,
+    "yolo_only_correct": 16,
+    "two_stage_only_correct": 46
+  },
+  "mcnemar_exact": {
+    "discordant_pairs": 62,
+    "p_value_two_sided": 0.00017632711255144299
+  },
+  "confidence_interval_method": "Wilson score interval, 95%"
+}
